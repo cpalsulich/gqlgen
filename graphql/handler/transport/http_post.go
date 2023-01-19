@@ -9,6 +9,7 @@ import (
 	"strings"
 
 	"github.com/vektah/gqlparser/v2/gqlerror"
+	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
 	"github.com/99designs/gqlgen/graphql"
 )
@@ -85,6 +86,9 @@ func (h POST) Do(w http.ResponseWriter, r *http.Request, exec graphql.GraphExecu
 	}
 
 	var responses graphql.ResponseHandler
+	if span, found := tracer.SpanFromContext(ctx); found {
+		log.Printf("gqlgen trace id from dd request headers %d\n", span.Context().TraceID())
+	}
 	responses, ctx = exec.DispatchOperation(ctx, rc)
 	writeJson(w, responses(ctx))
 }
