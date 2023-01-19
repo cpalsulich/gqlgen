@@ -12,11 +12,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/99designs/gqlgen/api"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/internal/code"
-	"github.com/99designs/gqlgen/plugin/servergen"
+	"github.com/cpalsulich/gqlgen/api"
+	"github.com/cpalsulich/gqlgen/codegen/config"
+	"github.com/cpalsulich/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/internal/code"
+	"github.com/cpalsulich/gqlgen/plugin/servergen"
 	"github.com/urfave/cli/v2"
 )
 

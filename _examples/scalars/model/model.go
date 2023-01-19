@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/99designs/gqlgen/_examples/scalars/external"
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/_examples/scalars/external"
+	"github.com/cpalsulich/gqlgen/graphql"
 )
 
 type (

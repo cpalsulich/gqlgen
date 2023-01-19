@@ -7,8 +7,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/errcode"
+	"github.com/cpalsulich/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/graphql/errcode"
 	"github.com/vektah/gqlparser/v2/ast"
 	"github.com/vektah/gqlparser/v2/gqlerror"
 )

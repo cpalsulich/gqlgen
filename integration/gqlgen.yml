@@ -14,22 +14,22 @@ resolver:
 struct_tag: json
 
 autobind:
-  - "github.com/99designs/gqlgen/integration/testomitempty"
-  - "github.com/99designs/gqlgen/integration/remote_api"
+  - "github.com/cpalsulich/gqlgen/integration/testomitempty"
+  - "github.com/cpalsulich/gqlgen/integration/remote_api"
 
 models:
   Element:
-    model: github.com/99designs/gqlgen/integration/models-go.Element
+    model: github.com/cpalsulich/gqlgen/integration/models-go.Element
   Viewer:
-    model: github.com/99designs/gqlgen/integration/models-go.Viewer
+    model: github.com/cpalsulich/gqlgen/integration/models-go.Viewer
   User:
-    model: github.com/99designs/gqlgen/integration/remote_api.User
+    model: github.com/cpalsulich/gqlgen/integration/remote_api.User
     fields:
       likes:
         resolver: true
   Float32:
-    model: github.com/99designs/gqlgen/integration/remote_api.Float32
+    model: github.com/cpalsulich/gqlgen/integration/remote_api.Float32
   Uint64:
-    model: github.com/99designs/gqlgen/integration/remote_api.Uint64
+    model: github.com/cpalsulich/gqlgen/integration/remote_api.Uint64
   ID:
-    model: github.com/99designs/gqlgen/integration/remote_api.ID
+    model: github.com/cpalsulich/gqlgen/integration/remote_api.ID

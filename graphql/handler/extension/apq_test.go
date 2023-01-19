@@ -5,10 +5,10 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/graphql/handler/extension"
-	"github.com/99designs/gqlgen/graphql/handler/testserver"
-	"github.com/99designs/gqlgen/graphql/handler/transport"
+	"github.com/cpalsulich/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/graphql/handler/extension"
+	"github.com/cpalsulich/gqlgen/graphql/handler/testserver"
+	"github.com/cpalsulich/gqlgen/graphql/handler/transport"
 	"github.com/stretchr/testify/require"
 )
 

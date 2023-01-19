@@ -11,7 +11,7 @@ import (
 	"github.com/vektah/gqlparser/v2/gqlerror"
 	"gopkg.in/DataDog/dd-trace-go.v1/ddtrace/tracer"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/graphql"
 )
 
 // POST implements the POST side of the default HTTP transport

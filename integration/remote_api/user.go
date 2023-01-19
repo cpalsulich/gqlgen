@@ -5,8 +5,8 @@ import (
 	"io"
 	"strconv"
 
-	"github.com/99designs/gqlgen/graphql"
-	"github.com/99designs/gqlgen/integration/testomitempty"
+	"github.com/cpalsulich/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/integration/testomitempty"
 )
 
 type User struct {

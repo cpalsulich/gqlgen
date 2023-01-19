@@ -5,7 +5,7 @@ import (
 	"encoding/base64"
 	"fmt"
 
-	"github.com/99designs/gqlgen/graphql"
+	"github.com/cpalsulich/gqlgen/graphql"
 	"google.golang.org/protobuf/proto"
 )
 

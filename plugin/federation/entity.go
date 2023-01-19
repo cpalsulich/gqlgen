@@ -1,8 +1,8 @@
 package federation
 
 import (
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin/federation/fieldset"
+	"github.com/cpalsulich/gqlgen/codegen/config"
+	"github.com/cpalsulich/gqlgen/plugin/federation/fieldset"
 	"github.com/vektah/gqlparser/v2/ast"
 )
 

@@ -5,12 +5,12 @@ import (
 	"regexp"
 	"syscall"
 
-	"github.com/99designs/gqlgen/codegen"
-	"github.com/99designs/gqlgen/codegen/config"
-	"github.com/99designs/gqlgen/plugin"
-	"github.com/99designs/gqlgen/plugin/federation"
-	"github.com/99designs/gqlgen/plugin/modelgen"
-	"github.com/99designs/gqlgen/plugin/resolvergen"
+	"github.com/cpalsulich/gqlgen/codegen"
+	"github.com/cpalsulich/gqlgen/codegen/config"
+	"github.com/cpalsulich/gqlgen/plugin"
+	"github.com/cpalsulich/gqlgen/plugin/federation"
+	"github.com/cpalsulich/gqlgen/plugin/modelgen"
+	"github.com/cpalsulich/gqlgen/plugin/resolvergen"
 )
 
 func Generate(cfg *config.Config, option ...Option) error {

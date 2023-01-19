@@ -1,4 +1,4 @@
-module github.com/99designs/gqlgen
+module github.com/cpalsulich/gqlgen
 
 go 1.16
 
@@ -22,5 +22,5 @@ require (
 
 require (
 	github.com/agnivade/levenshtein v1.1.1 // indirect
-	gopkg.in/DataDog/dd-trace-go.v1 v1.46.0 // indirect
+	gopkg.in/DataDog/dd-trace-go.v1 v1.46.0
 )
